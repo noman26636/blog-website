@@ -1,0 +1,35 @@
+.header{
+    margin-top: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header_Titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.headertitle_Sm{
+    position: absolute;
+    top: 22%;
+    font-size: 20px;
+    color: #444;
+}
+
+.headertitle_Lg{
+    position: absolute;
+    top: 30%;
+    font-size: 100px;
+    color: white;
+}
+
+
+.headerImage{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+    /* overflow: hidden; */
+}

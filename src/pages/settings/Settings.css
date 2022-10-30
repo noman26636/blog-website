@@ -1,0 +1,95 @@
+.settings{
+    display: flex;
+}
+
+.loginCart{
+    height: 150px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.setting_Wrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+
+
+.settings_Title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings_UpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightslategray;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.settings_DeleteTitle{
+    color: red;
+    font-style: 12px;
+    cursor: pointer;
+    font-family: "Valero",sans-serif;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settings_ProfilePicture{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin: 10px 0px;
+}
+
+.settings_ProfilePicture > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+}
+
+.settings_ProfilePictureIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Valero",sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.settingsForm > input{
+    margin: 10px 0px;
+    color: gray;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 130px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 13px;
+    margin: 20px;
+    background-color: teal;
+    cursor: pointer;
+}

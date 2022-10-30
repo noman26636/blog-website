@@ -1,0 +1,60 @@
+.login{
+    position: relative;
+    display: flex;
+}
+
+.loginWrapper{
+    flex: 9;
+    margin: 70px 120px;
+    width: 40px;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 120px;
+}
+
+.loginForm > label { 
+    margin-top: 20px;
+    font-size: 20px;
+    color: teal;
+    letter-spacing: 0.5px;
+    font-family: "Valero", sans-serif;
+}
+
+.loginForm > input{
+    margin: 10px 0;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 5px;
+    outline-color: teal;
+    background-color: whitesmoke;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.loginButton {
+    width: 130px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 13px;
+    margin: 20px;
+    background-color: teal;
+    cursor: pointer;
+}
+
+.loginTitle{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   color: #008070;
+   font-family: "Josefin Sans",sans-serif;
+   font-size: 30px; 
+}
